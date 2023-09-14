@@ -1,0 +1,36 @@
+[
+  {
+    "_id": {
+      "$oid": "5a11ce11828279756B696E79"
+    },
+    "name": "System Admin",
+    "email": "admin@gmail.com",
+    "password": "$2b$10$4gMKZVASb3Pigm9AGLGCle6lGcrVfJqkQBV1nS2GLHyBqkJclDqdK",
+    "roleId": {
+      "$oid": "148855e11828259756b696e7"
+    },
+    "createdAt": {
+      "$numberLong": "1676338905963"
+    },
+    "updatedAt": {
+      "$numberLong": "1676338905963"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "ff11c4ca113edadd7bad9141"
+    },
+    "name": "Service Admin",
+    "email": "service.admin@mergensavdag.com",
+    "password": "$2b$10$29vQ4kzNsX38FuBnxwdKC.qrD4Vvpy7F8tqHT/5fHG9WWnQkXRz9y",
+    "roleId": {
+      "$oid": "63dc7b68263af3cb70861f0d"
+    },
+    "createdAt": {
+      "$numberLong": "1676338905963"
+    },
+    "updatedAt": {
+      "$numberLong": "1676338905963"
+    }
+  }
+]

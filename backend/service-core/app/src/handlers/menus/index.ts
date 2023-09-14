@@ -1,0 +1,1 @@
+export { getMenus as menus } from './read'

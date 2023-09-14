@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6396be85b32e74798df713a1"
+  },
+  "name": "STATISTICS"
+}, {
+  "_id": {
+    "$oid": "6396be20b32e74798df713a2"
+  },
+  "name": "DEVICES"
+}, {
+  "_id": {
+    "$oid": "6396be72b32e74798df713a3"
+  },
+  "name": "ADDRESSES"
+}, {
+  "_id": {
+    "$oid": "6396be85b32e74798df713a4"
+  },
+  "name": "USERS"
+}, {
+  "_id": {
+    "$oid": "6396be85b32e74798df713a5"
+  },
+  "name": "ROLES"
+}, {
+  "_id": {
+    "$oid": "6396be85b32e74798df713a6"
+  },
+  "name": "CONTROL"
+}]

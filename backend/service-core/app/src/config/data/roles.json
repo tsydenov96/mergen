@@ -1,0 +1,181 @@
+[{
+    "_id": {
+      "$oid": "148855e11828259756b696e7"
+    },
+    "name": "System Admin",
+    "rules": {
+      "MENU": [{
+        "actions": [
+          "READ"
+        ],
+        "resources": [
+          "6396be85b32e74798df713a1",
+          "6396be20b32e74798df713a2",
+          "6396be72b32e74798df713a3",
+          "6396be85b32e74798df713a4",
+          "6396be85b32e74798df713a5"
+        ]
+      }],
+      "USER": [{
+        "actions": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "PERMIT",
+          "GRANT"
+        ],
+        "resources": ["*"]
+      }],
+      "ROLE": [{
+        "actions": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE"
+        ],
+        "resources": ["*"]
+      }],
+      "EVENT": [{
+        "actions": ["READ"],
+        "resources": ["*"]
+      }],
+      "DEVICE": [{
+        "actions": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "CONTROL"
+        ],
+        "resources": ["*"]
+      }],
+      "ADDRESS": [{
+        "actions": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE"
+        ],
+        "resources": ["*"]
+      }]
+    },
+    "createdAt": {
+      "$numberLong": "1672799781488"
+    },
+    "updatedAt": {
+      "$numberLong": "1672799781488"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "63dc7b68263af3cb70861f0d"
+    },
+    "name": "Service Admin",
+    "rules": {
+      "MENU": [{
+        "actions": [
+          "READ"
+        ],
+        "resources": [
+          "6396be85b32e74798df713a1",
+          "6396be20b32e74798df713a2",
+          "6396be72b32e74798df713a3",
+          "6396be85b32e74798df713a4",
+          "6396be85b32e74798df713a5"
+        ]
+      }],
+      "USER": [{
+        "actions": [
+          "CREATE",
+          "READ",
+          "DELETE",
+          "PERMIT",
+          "GRANT"
+        ],
+        "resources": ["*"]
+      }],
+      "ROLE": [{
+        "actions": [],
+        "resources": []
+      }],
+      "EVENT": [{
+        "actions": ["READ"],
+        "resources": ["*"]
+      }],
+      "DEVICE": [{
+        "actions": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE",
+          "CONTROL"
+        ],
+        "resources": ["*"]
+      }],
+
+      "ADDRESS": [{
+        "actions": [
+          "CREATE",
+          "READ",
+          "UPDATE",
+          "DELETE"
+        ],
+        "resources": ["*"]
+      }]
+    },
+    "createdAt": {
+      "$numberLong": "1672799781488"
+    },
+    "updatedAt": {
+      "$numberLong": "1672799781488"
+    }
+  },
+
+  {
+    "_id": {
+      "$oid": "6675636b696e67736c617665"
+    },
+    "name": "New User",
+    "rules": {
+      "MENU": [{
+        "actions": [
+          "READ"
+        ],
+        "resources": [
+          "6396be85b32e74798df713a6"
+        ]
+      }],
+      "USER": [{
+        "actions": [],
+        "resources": []
+      }],
+      "ROLE": [{
+        "actions": [],
+        "resources": []
+      }],
+      "EVENT": [{
+        "actions": [],
+        "resources": []
+      }],
+      "DEVICE": [{
+        "actions": [],
+        "resources": []
+      }],
+
+      "ADDRESS": [{
+        "actions": [
+          "READ",
+          "PICK"
+        ],
+        "resources": ["*"]
+      }]
+    },
+    "createdAt": {
+      "$numberLong": "1672799781488"
+    },
+    "updatedAt": {
+      "$numberLong": "1672799781488"
+    }
+  }
+]

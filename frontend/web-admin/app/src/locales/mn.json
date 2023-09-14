@@ -1,0 +1,43 @@
+{
+    "menu": {
+        "home": "Home",
+        "users": "Users",
+        "roles": "Roles", 
+        "devices": "Devices",  
+        "events": "Events", 
+        "address": "Address",
+        "statistics": "Statistics",
+        "about": "About",
+        "settings": "Settings",
+        "logout": "Logout",
+        "login": "Login",
+        "map": "Map",
+        "purchases": "Purchases",
+        "control": "Control"
+    },
+    "table": {
+        "name": "Name",
+        "controls": "Constor access",
+        "state": "State",
+        "status": "Status",
+        "success": "Success"
+    },
+    "login": {
+        "title": "Login",
+        "signin": "Sign in",
+        "errors": {
+            "logged-in": "You are already logged in",
+            "unauthorized": "Unauthorized",
+            "empty-field": "Please type something",
+            "less-chars": "Less 6 chars",
+            "invalid-email": "Invalid Email format"
+        }
+    },
+    "settings": {
+        "locales":{
+            "en": "English",
+            "mn": "Mongolian"
+        },
+        "language": "Choose language"
+    }
+}
